@@ -1,0 +1,5 @@
+{
+  "name": "GK公仔玩具專賣店 管理後台",
+  "description": "一個用於管理電子商務網站產品的管理後台。管理員可以登入以新增、查看和移除商店中的商品。",
+  "requestFramePermissions": []
+}
