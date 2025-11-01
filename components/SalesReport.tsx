@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Order, Product } from '../types';
+import { Order, Product } from '../types.ts';
 
 interface SalesReportProps {
   orders: Order[];

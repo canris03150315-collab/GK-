@@ -1,7 +1,8 @@
+
 import React from 'react';
-import { ContactPageInfo, Category, ContactInfo } from '../types';
-import StorefrontHeader from './StorefrontHeader';
-import StorefrontFooter from './StorefrontFooter';
+import { ContactPageInfo, Category, ContactInfo } from '../types.ts';
+import StorefrontHeader from './StorefrontHeader.tsx';
+import StorefrontFooter from './StorefrontFooter.tsx';
 
 interface ContactPageProps {
   contactPageInfo: ContactPageInfo;

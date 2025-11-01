@@ -1,5 +1,6 @@
+
 import React, { useState, FormEvent, useEffect, ChangeEvent } from 'react';
-import { ShoppingGuideInfo } from '../types';
+import { ShoppingGuideInfo } from '../types.ts';
 
 interface SettingsProps {
     currentInfo: ShoppingGuideInfo;

@@ -1,5 +1,6 @@
+
 import React, { useState, FormEvent, useEffect, ChangeEvent } from 'react';
-import { ShippingInfo } from '../types';
+import { ShippingInfo } from '../types.ts';
 
 interface SettingsProps {
     currentInfo: ShippingInfo;

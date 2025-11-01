@@ -1,5 +1,6 @@
+
 import React, { useState, FormEvent, useEffect, ChangeEvent } from 'react';
-import { ContactPageInfo } from '../types';
+import { ContactPageInfo } from '../types.ts';
 
 interface ContactPageSettingsProps {
     currentContactPageInfo: ContactPageInfo;

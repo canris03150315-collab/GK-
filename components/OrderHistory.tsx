@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { Order, Product, OrderStatus } from '../types';
+import { Order, Product, OrderStatus } from '../types.ts';
 
 interface OrderHistoryProps {
   orders: Order[];

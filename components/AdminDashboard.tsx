@@ -1,21 +1,22 @@
+
 import React, { useState } from 'react';
-import { Product, Category, CarouselImage, ContactInfo, AboutInfo, ContactPageInfo, ShoppingGuideInfo, PaymentInfo, ShippingInfo, Order, OrderStatus } from '../types';
-import Header from './Header';
-import Footer from './Footer';
-import AddProductForm from './AddProductForm';
-import ProductCard from './ProductCard';
-import StorefrontSettings from './StorefrontSettings';
-import CategoryManager from './CategoryManager';
-import CarouselManager from './CarouselManager';
-import ContactSettings from './ContactSettings';
-import AboutSettings from './AboutSettings';
-import ContactPageSettings from './ContactPageSettings';
-import ShoppingGuideSettings from './ShoppingGuideSettings';
-import PaymentSettings from './PaymentSettings';
-import ShippingSettings from './ShippingSettings';
-import SecuritySettings from './SecuritySettings';
-import OrderHistory from './OrderHistory';
-import SalesReport from './SalesReport';
+import { Product, Category, CarouselImage, ContactInfo, AboutInfo, ContactPageInfo, ShoppingGuideInfo, PaymentInfo, ShippingInfo, Order, OrderStatus } from '../types.ts';
+import Header from './Header.tsx';
+import Footer from './Footer.tsx';
+import AddProductForm from './AddProductForm.tsx';
+import ProductCard from './ProductCard.tsx';
+import StorefrontSettings from './StorefrontSettings.tsx';
+import CategoryManager from './CategoryManager.tsx';
+import CarouselManager from './CarouselManager.tsx';
+import ContactSettings from './ContactSettings.tsx';
+import AboutSettings from './AboutSettings.tsx';
+import ContactPageSettings from './ContactPageSettings.tsx';
+import ShoppingGuideSettings from './ShoppingGuideSettings.tsx';
+import PaymentSettings from './PaymentSettings.tsx';
+import ShippingSettings from './ShippingSettings.tsx';
+import SecuritySettings from './SecuritySettings.tsx';
+import OrderHistory from './OrderHistory.tsx';
+import SalesReport from './SalesReport.tsx';
 
 interface AdminDashboardProps {
   products: Product[];

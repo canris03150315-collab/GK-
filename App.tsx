@@ -1,17 +1,18 @@
+
 import React, { useState, useEffect } from 'react';
-import { Product, Category, CartItem, CarouselImage, ContactInfo, AboutInfo, ContactPageInfo, ShoppingGuideInfo, PaymentInfo, ShippingInfo, CustomerInfo, Order, OrderStatus } from './types';
-import Login from './components/Login';
-import AdminDashboard from './components/AdminDashboard';
-import Storefront from './components/Storefront';
-import ProductDetailPage from './components/ProductDetailPage';
-import CartPage from './components/CartPage';
-import AboutUsPage from './components/AboutUsPage';
-import ContactPage from './components/ContactPage';
-import ShoppingGuidePage from './components/ShoppingGuidePage';
-import PaymentPage from './components/PaymentPage';
-import ShippingPage from './components/ShippingPage';
-import CheckoutPage from './components/CheckoutPage';
-import OrderConfirmationPage from './components/OrderConfirmationPage';
+import { Product, Category, CartItem, CarouselImage, ContactInfo, AboutInfo, ContactPageInfo, ShoppingGuideInfo, PaymentInfo, ShippingInfo, CustomerInfo, Order, OrderStatus } from './types.ts';
+import Login from './components/Login.tsx';
+import AdminDashboard from './components/AdminDashboard.tsx';
+import Storefront from './components/Storefront.tsx';
+import ProductDetailPage from './components/ProductDetailPage.tsx';
+import CartPage from './components/CartPage.tsx';
+import AboutUsPage from './components/AboutUsPage.tsx';
+import ContactPage from './components/ContactPage.tsx';
+import ShoppingGuidePage from './components/ShoppingGuidePage.tsx';
+import PaymentPage from './components/PaymentPage.tsx';
+import ShippingPage from './components/ShippingPage.tsx';
+import CheckoutPage from './components/CheckoutPage.tsx';
+import OrderConfirmationPage from './components/OrderConfirmationPage.tsx';
 
 // Mock Data
 const initialCategories: Category[] = [

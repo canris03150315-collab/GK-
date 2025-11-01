@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
-import { Product, Category, ContactInfo } from '../types';
-import StorefrontFooter from './StorefrontFooter';
+import { Product, Category, ContactInfo } from '../types.ts';
+import StorefrontFooter from './StorefrontFooter.tsx';
 
 interface ProductDetailPageProps {
   product: Product;

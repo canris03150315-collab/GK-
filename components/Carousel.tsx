@@ -1,5 +1,6 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
-import { CarouselImage } from '../types';
+import { CarouselImage } from '../types.ts';
 
 interface CarouselProps {
   images: CarouselImage[];

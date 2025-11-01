@@ -1,5 +1,6 @@
+
 import React, { useState, ChangeEvent, FormEvent } from 'react';
-import { CarouselImage } from '../types';
+import { CarouselImage } from '../types.ts';
 
 interface CarouselManagerProps {
     images: CarouselImage[];

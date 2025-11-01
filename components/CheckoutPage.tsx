@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { CartItem, Product, CustomerInfo, ContactInfo, Category } from '../types';
+import { CartItem, Product, CustomerInfo, ContactInfo, Category } from '../types.ts';
 
 interface CheckoutPageProps {
   cartItems: CartItem[];

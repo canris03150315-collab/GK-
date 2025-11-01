@@ -1,5 +1,6 @@
+
 import React, { useState, FormEvent, useEffect } from 'react';
-import { ContactInfo } from '../types';
+import { ContactInfo } from '../types.ts';
 
 interface ContactSettingsProps {
     currentContactInfo: ContactInfo;

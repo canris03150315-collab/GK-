@@ -1,6 +1,7 @@
+
 import React from 'react';
-import { CartItem, Product, ContactInfo } from '../types';
-import StorefrontFooter from './StorefrontFooter';
+import { CartItem, Product, ContactInfo } from '../types.ts';
+import StorefrontFooter from './StorefrontFooter.tsx';
 
 interface CartPageProps {
   cartItems: CartItem[];

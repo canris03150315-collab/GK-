@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { ContactInfo } from '../types';
+import { ContactInfo } from '../types.ts';
 
 interface StorefrontFooterProps {
     onNavigateToAdmin: () => void;

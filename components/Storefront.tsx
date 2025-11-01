@@ -1,9 +1,10 @@
+
 import React, { useState } from 'react';
-import { Product, Category, CarouselImage, ContactInfo } from '../types';
-import StorefrontHeader from './StorefrontHeader';
-import Carousel from './Carousel';
-import StorefrontProductCard from './StorefrontProductCard';
-import StorefrontFooter from './StorefrontFooter';
+import { Product, Category, CarouselImage, ContactInfo } from '../types.ts';
+import StorefrontHeader from './StorefrontHeader.tsx';
+import Carousel from './Carousel.tsx';
+import StorefrontProductCard from './StorefrontProductCard.tsx';
+import StorefrontFooter from './StorefrontFooter.tsx';
 
 interface StorefrontProps {
   shopName: string;

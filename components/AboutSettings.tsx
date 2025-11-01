@@ -1,5 +1,6 @@
+
 import React, { useState, FormEvent, useEffect, ChangeEvent } from 'react';
-import { AboutInfo } from '../types';
+import { AboutInfo } from '../types.ts';
 
 interface AboutSettingsProps {
     currentAboutInfo: AboutInfo;

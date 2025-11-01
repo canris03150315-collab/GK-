@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Order, Category, ContactInfo } from '../types';
+import { Order, Category, ContactInfo } from '../types.ts';
 
 interface OrderConfirmationPageProps {
   order: Order;

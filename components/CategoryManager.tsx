@@ -1,5 +1,6 @@
+
 import React, { useState, useMemo } from 'react';
-import { Category } from '../types';
+import { Category } from '../types.ts';
 
 interface CategoryManagerProps {
     categories: Category[];

@@ -1,5 +1,6 @@
+
 import React, { useState, FormEvent, useEffect, ChangeEvent } from 'react';
-import { PaymentInfo } from '../types';
+import { PaymentInfo } from '../types.ts';
 
 interface SettingsProps {
     currentInfo: PaymentInfo;

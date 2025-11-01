@@ -1,5 +1,6 @@
+
 import React, { useState, FormEvent, ChangeEvent, useMemo } from 'react';
-import { Product, Category } from '../types';
+import { Product, Category } from '../types.ts';
 
 interface AddProductFormProps {
   onAddProduct: (product: Omit<Product, 'id'>) => void;
